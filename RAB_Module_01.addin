@@ -18,6 +18,15 @@
     <VendorId>com.YOUR COMPANY NAME</VendorId>
     <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
   </AddIn>
+  <AddIn Type="Command">
+    <Text>RAB_Module_01 - Module01Challenge</Text>
+    <Description>Some description for RAB_Module_01</Description>
+    <Assembly>RAB_Module_01.dll</Assembly>
+    <FullClassName>RAB_Module_01.Module01Challenge</FullClassName>
+    <ClientId>edcca7dc-3fde-4b4c-9668-6d5972e185cd</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
   <AddIn Type="Application">
     <Name>RAB_Module_01</Name>
     <Assembly>RAB_Module_01.dll</Assembly>

@@ -25,30 +25,15 @@ namespace RAB_Module_01
             Document doc = uiapp.ActiveUIDocument.Document;
 
             // Your code goes here
-            int number = 250;
-            int elevation = 0;
-            int floorHeight = 115;
 
-            for (int i = 0; i < number; i++)
-            {
-                double by3 = i % 3;
-                double by5 = i % 5;
-
-                Transaction t = new Transaction(doc);
-                t.Start("Create new level");
-                Level newLevel = Level.Create(doc, elevation);
-                if (by3 == 0 && by5 == 0);
-
-            
-            }
 
             return Result.Succeeded;
         }
         internal static PushButtonData GetButtonData()
         {
             // use this method to define the properties for this command in the Revit ribbon
-            string buttonInternalName = "btnCommand1";
-            string buttonTitle = "Button 1";
+            string buttonInternalName = "btnCommand2";
+            string buttonTitle = "Button 2";
 
             ButtonDataClass myButtonData1 = new ButtonDataClass(
                 buttonInternalName,
@@ -56,7 +41,7 @@ namespace RAB_Module_01
                 MethodBase.GetCurrentMethod().DeclaringType?.FullName,
                 Properties.Resources.Blue_32,
                 Properties.Resources.Blue_16,
-                "This is a tooltip for Button 1");
+                "This is a tooltip for Button 2");
 
             return myButtonData1.Data;
         }

@@ -164,9 +164,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Command1.cs" />
     <Compile Include="Utils\ButtonDataClass.cs" />
     <Compile Include="Command2.cs" />
-    <Compile Include="Command1.cs" />
+    <Compile Include="Module01Challenge.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
